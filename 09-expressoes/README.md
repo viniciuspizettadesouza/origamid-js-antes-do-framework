@@ -12,13 +12,13 @@ const total = numeros.filter(numero => numero > 4);
 
 const active = true;
 const button = active && "Botão está ativo";
-COPIAR
+
 JSX
 
 // JSX
 <button onClick={event => event.target.classList.add("active")}>Button</button>
-COPIAR
+
 Vue
 
 <button @click="({target}) => target.classList.add('active')">Button</button>
-COPIAR
+
